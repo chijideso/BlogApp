@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Poppins";
+  color: #333;
+
+}
+.navbar .menu{
+  display: none ;
+  position: absolute;
+  top: 0.75rem;
+  right: 2.9rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  
+}
+
+.navbar .menu span{
+  height: 0.4rem;
+  width: 100%;
+  max-width: 50px;
+  /* margin-right: 80px; */
+  position: block;
+ 
+  margin:  auto 0;
+
+  background-color: rgb(253, 253, 253);
+  border-radius: 0.2rem;
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  /* align-items: space; */
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 100px;
+  border-bottom: 1px solid #dadae0;
+  background-color: rgb(244, 248, 252);
+  position: sticky;
+  top: 0;
+  
+}
+
+
+
+.navbar ul{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  
+}
+.navbar ul li  {
+  margin-left: 018px;
+  text-decoration: none;
+  /* color: white; */
+  list-style: none;
+  padding: 6px;
+}
+.navbar img{
+  height: 50px;
+  
+}
+.navbar ul li a{
+  color:rgb(8, 53, 104) ;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+.navbar a:hover{
+  border-bottom: 1px solid rgba(8, 53, 104, 0.226);
+  color: rgb(25, 216, 136);
+  padding: 10px;
+
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.home{
+  padding: 20px;
+  display: flex;
+  /* align-items: center; */
+  max-width: 1200px;
+  width: 100%;
+  margin-left: 100px auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.home1{
+  padding: 20px;
+  /* display: flex; */
+  align-items: center;
+  max-width: 600px;
+  margin: 10px auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.home1 h2{
+  color: #1c3e72;
+  padding-bottom: 20px;
+}
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px auto;
+  margin-top: 80px;
+  border-bottom: 1px solid #fafafa;
+}
+  .blog-preview:hover{
+    box-shadow: 1px 3px 5px rgba(0, 0, 0,0.3);
+
+  }
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #2c7fec;
+  margin-bottom: 8px;
+}
+.home .title{
+  width: 100%;
+  max-width: 200px;
+  padding: 200px auto;
+  color: rgb(8, 53, 104);
+}
+.home .blog-preview{
+  margin-left: -100px auto;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview button{
+  background-color: #1c3e72;
+  color: #fff;
+  border: 0;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.blog-preview h3{
+  color: rgb(8, 53, 104);
+  display: none;
+
+}
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color: rgb(8, 53, 104);
+  margin-bottom: 30px ;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background-color: rgb(8, 53, 104);
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.deletemessage button{
+  background-color: rgb(8, 53, 104);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.deletemessage h2{
+  width: 100%;
+  max-width: 800px;
+}
+span{
+  color: rgb(241, 241, 241);
+}
+@media (max-width: 480px) {
+  .navbar .menu{
+    display: flex;
+    padding: 20px;
+    
+  }
+.navbar {
+    flex-direction: column;
+    align-items: start;
+    background-color: rgb(8, 53, 104);
+  }
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  .navbar ul.open{
+    display: flex;
+  }
+  .navbar ul li{
+    width: 100%;
+    text-align:   center;
+    
+  }
+  .navbar ul li a{
+    color: rgb(255, 255, 255);
+    margin: 0.2rem 0.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
